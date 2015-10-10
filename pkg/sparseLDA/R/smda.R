@@ -267,10 +267,6 @@ predict.smda <- function(object, newdata = NULL, ...)
   class <- factor(object$classes[apply(pr,1,which.max)], levels = object$classes)
   colnames(pr) <- object$classes
   colnames(Zt) <- object$subClasses
-  ## We compute the posterior probs per class (not subclass) and get the class from that      
-  #subPred$class <- unlist(lapply(strsplit(as.character(subPred$class), "\\|"), function(x)x[1]))
-  #subPred$class <- factor(subPred$class, levels = object$classes)
-  #subPred
   list(class=class,
        classprob = pr/apply(pr,1,sum),
        subprob = Zt/apply(Zt,1,sum))
