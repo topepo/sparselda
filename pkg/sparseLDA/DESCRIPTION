@@ -4,7 +4,7 @@ Date: 2015-10-10
 Title: Sparse Discriminant Analysis
 Author: Line Clemmensen <lhc@imm.dtu.dk>, contributions by Max Kuhn
 Maintainer: Line Clemmensen <lhc@imm.dtu.dk>
-Depends: lars, elasticnet, MASS, mda, R (>= 2.10)
+Imports: elasticnet, MASS, mda
 Description: Performs sparse linear discriminant analysis for gaussians and mixture of gaussians models.
 License: GPL (>= 2)
 URL: http://www.imm.dtu.dk/~lhc, https://github.com/topepo/sparselda

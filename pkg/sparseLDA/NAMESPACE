@@ -1,11 +1,15 @@
-export(
-       normalize,
+export(normalize,
        normalizetest,
        sda,
        predict.smda,
        predict.sda,
        smda)
 
+importFrom("stats", "predict", "rnorm")
+importFrom("utils", "getFromNamespace")
+importFrom("mda", "mda.start")
+importFrom("MASS", "lda")
+importFrom("elasticnet", "solvebeta")
 
 S3method(sda,  default)
 S3method(smda, default)
