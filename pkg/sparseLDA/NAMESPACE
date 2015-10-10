@@ -6,7 +6,6 @@ export(normalize,
        smda)
 
 importFrom("stats", "predict", "rnorm")
-importFrom("utils", "getFromNamespace")
 importFrom("mda", "mda.start")
 importFrom("MASS", "lda")
 importFrom("elasticnet", "solvebeta")
