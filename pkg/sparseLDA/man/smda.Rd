@@ -79,6 +79,7 @@ p <- dim(Xn)[2]
 
 ## perform SMDA with one non-zero loading for each discriminative
 ## direction
+\dontrun{
 smdaFit <- smda(x = Xn,
                 y = Y, 
                 Z = Z, 
@@ -86,7 +87,6 @@ smdaFit <- smda(x = Xn,
                 lambda = 1e-6,
                 stop = -5,
                 maxIte = 10,
-                trace = TRUE,
                 tol = 1e-2)
 
 # testing
@@ -94,7 +94,7 @@ Xtst <- X[Iout,]
 Xtst <- normalizetest(Xtst, Xc)
 
 test <- predict(smdaFit, Xtst)
-
+}
 }
 \keyword{classif}
 \keyword{multivariate}
