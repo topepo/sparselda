@@ -1,2 +1,4 @@
 
 pkg/sparseLDA.Rcheck
+
+*.gz
