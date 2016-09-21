@@ -2,3 +2,5 @@
 pkg/sparseLDA.Rcheck
 
 *.gz
+
+pkg/sparseLDA_0.1-7.tar.gz
