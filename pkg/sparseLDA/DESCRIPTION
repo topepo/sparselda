@@ -1,11 +1,11 @@
 Package: sparseLDA
-Version: 0.1-8
-Date: 2016-09-21
+Version: 0.1-9
+Date: 2016-09-22
 Title: Sparse Discriminant Analysis
 Author: Line Clemmensen <lhc@imm.dtu.dk>, contributions by Max Kuhn
 Maintainer: Max Kuhn <mxkuhn@gmail.com>
 Imports: elasticnet, MASS, mda
 Depends: R (>= 2.10)
-Description: Performs sparse linear discriminant analysis for gaussians and mixture of gaussians models.
+Description: Performs sparse linear discriminant analysis for Gaussians and mixture of Gaussian models.
 License: GPL (>= 2)
 URL: http://www.imm.dtu.dk/~lhc, https://github.com/topepo/sparselda
